@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envy</title>
+</head>
+<body>
+    <p>Envy - facilitateur d'environnements</p>
+    <div id="production">
+        <p>Vous êtes en environnement de production. Prudence !</p>
+    </div>
+    <div id ="qualification">
+        <p>Vous êtes en environnement de qualification. Veuillez à le garder en bon état pour les tests.</p>
+    </div>
+    <div id ="developpement">
+        <p>Vous êtes en environnement de développement.</p>
+    </div>
+    <button id="Affichage1">Affichage standard</button>
+</br>
+    <button onclick="show_Hide_Production()">Affichage production</button>
+</br>
+    <button onclick="show_Hide_Qualification()">Affichage qualification</button>
+</br>
+    <button onclick="show_Hide_Developpement()">Affichage développement</button>
+
+    <script src="popup.js"></script>    
+</body>
+</html>
