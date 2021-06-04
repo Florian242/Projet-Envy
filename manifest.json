@@ -1,21 +1,30 @@
 {
-    "manifest_version": 2,
-    "name": "envy",
-    "description": "extension de navigateur aidant les utilisateurs et connaître l'environnement dans lequel ils se trouvent",
+    "name": "Envy",
+    "description": "L'extension de navigateur aidant les utilisateurs et connaître l'environnement dans lequel ils se trouvent",
     "version": "1.0",
-    "icons":{
-        "128":"icon128.jpg",
-        "48":"icon48.jpg",
-        "16":"icon16.png"
+    "permissions": [
+      "activeTab",
+      "file://*/*",
+      "https://*/*",
+      "http://*/*",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
     },
-    "browser_action":{
-        "default_icon":"icon16.png",
-        "default_popup":"popup.html"
+    "browser_action": {
+      "default_icon":"image_ENVY/highTest.png",
+      "default_title": "Jongler entre les diférents environnements",
+      "default_popup": "popup.html"
     },
-    "content_scripts" : [{
-        "matches" : ["http://*/*", "https://*/*"],
-        "js" : ["content.js"]
-    }]
-
+    "content_scripts": [
+      {
+         "matches":    ["<all_urls>"],
+         "css":        ["style.css"],
+         "js":         ["contentScript.js"]
+      }
+   ],
+    "manifest_version": 2
     
-}
+  }

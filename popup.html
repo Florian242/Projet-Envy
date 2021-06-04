@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envy</title>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    </div>
-    <button onclick="show_Standart()">Affichage standard</button>
-</br>
-    <button onclick="show_Hide_Production()">Affichage production</button>
-</br>
-    <button onclick="show_Hide_Qualification()">Affichage qualification</button>
-</br>
-    <button onclick="show_Hide_Developpement()">Affichage développement</button>
+<html>
+  <body style="width: 300px"> 
+    <h1><img class="fit-picture"
+      src="/image_ENVY/highTest48.png"
+      alt="Logo Envy">
+    </h1>
+
+    <p class="p_popup">Selectionner votre environnement : </p>
     
-    <script src="popup.js"></script>    
-</body>
+    <button id="textProduction" class="buttonTexteProduction">Affichage production</button>
+    </br>
+    <button id="textDeveloppement" class="buttonTexteDeveloppement">Affichage developpement</button>
+    </br>
+    <button id="textQualification" class="buttonTexteQualification">Affichage qualification</button>
+    </br>
+    <button id="textStandard" class="buttonTexteStandard">Affichage standard</button>
+    </br>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
 </html>

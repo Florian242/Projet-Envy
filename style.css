@@ -1,0 +1,96 @@
+/*---------------------------------
+Bouton
+---------------------------------- */
+
+.buttonTexteProduction {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin:4px 2px;
+    border-radius: 2rem;
+}
+.buttonTexteProduction:hover {background-color: #d17811}
+
+.buttonTexteProduction:active {
+  background-color: #d17811;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonTexteDeveloppement {
+    background-color:green;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin:4px 2px;
+    border-radius: 2rem;
+}
+.buttonTexteDeveloppement:hover {background-color: #084610}
+
+.buttonTexteDeveloppement:active {
+  background-color: #084610;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.buttonTexteQualification {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin:4px 2px;
+    border-radius: 2rem;
+}
+.buttonTexteQualification:hover {background-color: #030258}
+
+.buttonTexteQualification:active {
+  background-color: #030258;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonTexteStandard {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin:4px 2px;
+    border-radius: 2rem;
+}
+.buttonTexteStandard:hover {background-color: #859188af}
+
+.buttonTexteStandard:active {
+  background-color: #859188af;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.p_popup{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.classBandeauEnvironnement{
+    text-align: center;
+    line-height:50px;
+    font-weight: bold;
+    text-decoration: none;
+}
