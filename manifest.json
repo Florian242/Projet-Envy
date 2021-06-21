@@ -1,9 +1,8 @@
 {
     "name": "Envy",
-    "description": "L'extension de navigateur aidant les utilisateurs et connaître l'environnement dans lequel ils se trouvent",
+    "description": "L'extension de navigateur aidant les utilisateurs a connaître l'environnement dans lequel ils se trouvent",
     "version": "1.0",
     "permissions": [
-      "activeTab",
       "file://*/*",
       "https://*/*",
       "http://*/*",
