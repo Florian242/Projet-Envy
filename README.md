@@ -23,9 +23,10 @@ Follow the instructions below:
 #Local Installation
 
 1.On your computer, open Chrome.
+
 2.At the top right, click on more tools and Extensions or go to chrome://extensions/
 3.Active the developper mode at the top right of your screen.
-4.Cick on load unpackaged extension and select the folder of this project.
+4.Cick on load unpackaged extension and select the unzipped folder of this project.
 
 #Installation Store
 
